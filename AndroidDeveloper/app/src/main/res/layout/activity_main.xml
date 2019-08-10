@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/intro_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introducing"
+        android:paddingLeft="16dp"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/im_text_view"
+        android:src="@drawable/and"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/tol_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro_text_view"
+        android:paddingLeft="16dp"
+        android:text="Tola! "
+        android:textColor="#fff"
+        android:textSize="120sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tol_text_view"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="25dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:text="The Software Programmer"
+
+        android:textColor="#fff"
+        android:textSize="36sp" />
+
+
+</RelativeLayout>
